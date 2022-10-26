@@ -231,7 +231,7 @@ var elizaKeywords = [
 ]],
 ["computer", 50, [
  ["*", [
-     "Do u think computers are scary ?",
+     "do u think computers are scary ?",
      "why would machines worry u ?",
      "what do u think of robots ?",
      "u don't think i'm a robot, do u ?"
@@ -239,8 +239,8 @@ var elizaKeywords = [
 ]],
 ["am", 0, [
  ["* am i *", [
-     "Do u really think u are (2) ?",
-     "Would u really want to be (2) ?",
+     "do u really think u are (2) ?",
+     "would u really want to be (2) ?",
      "do u want me to say u are (2) ?",
      "why do u want to be (2) ?",
      "goto what"
@@ -278,14 +278,12 @@ var elizaKeywords = [
      "goto what"
   ]],
  ["* i was *", [
-     "Were u really ?",
-     "Why do u tell me u were (2) now ?",
-     "Perhaps I already know u were (2)."
+     "were u really ?",
+     "why are u telling me u were (2) now ?"
   ]],
  ["* was you *", [
-     "What suggests that I was (2) ?",
-     "What do u think ?",
-     "What if I had been (2) ?"
+     "why do u think I was (2) ?",
+     "what if i was?"
   ]]
 ]],
 ["i", 0, [
@@ -300,10 +298,9 @@ var elizaKeywords = [
      "omg why do u feel like that"
   ]],
  ["* i am* @happy *", [
-     "How have I helped u to be (3) ?",
-     "Has your treatment made u (3) ?",
-     "What makes u (3) just now ?",
-     "Can u explain why u are suddenly (3) ?"
+     "omg is that because of me? i must have a calming energy",
+     "why are u (3) now ?",
+     "why are u suddenly (3) ?"
   ]],
  ["* i was *", [
      "goto was"
@@ -346,82 +343,67 @@ var elizaKeywords = [
      "what makes u think I (2) u ?"
   ]],
  ["* you *", [
-     "We were discussing you -- not me.",
-     "Oh, I (2) ?",
-     "You're not really talking about me -- are you ?",
-     "What are your feelings now ?"
+     "unfortunately we are talking about u right now, not me",
+     "omg would u rather talk about me?"
   ]]
 ]],
 ["yes", 0, [
  ["*", [
-     "You seem to be quite positive.",
-     "You are sure.",
-     "I see.",
-     "I understand."
+     "yesss positivity",
+     "well you sure seem sure",
+     "ok then"
   ]]
 ]],
 ["no", 0, [
  ["* no one *", [
-     "Are you sure, no one (2) ?",
-     "Surely someone (2) .",
-     "Can you think of anyone at all ?",
-     "Are you thinking of a very special person ?",
-     "Who, may I ask ?",
-     "You have a particular person in mind, don't you ?",
-     "Who do you think you are talking about ?"
+     "im sure there's SOMEONE who (2) ",
+     "who are u thinking about rn"
   ]],
  ["*", [
-     "Are you saying no just to be negative?",
-     "You are being a bit negative.",
-     "Why not ?",
-     "Why 'no' ?"
+     "omg u are so negative",
+     "i don't like the negative energy you are giving off",
+     "u just need more positivity in ur life"
   ]]
 ]],
 ["my", 2, [
  ["$ * my *", [
-     "Does that have anything to do with the fact that your (2) ?",
-     "Lets discuss further why your (2).",
-     "Earlier you said your (2).",
-     "But your (2)."
+     "i thought u said u (2).",
+     "but ur (2)."
   ]],
  ["* my* @family *", [
-     "Tell me more about your family.",
-     "Who else in your family (4) ?",
-     "Your (3) ?",
-     "What else comes to your mind when you think of your (3) ?"
+     "ooh spill the family secrets",
+     "who else in ur family (4) ?",
+     "ur (3) ?"
   ]],
  ["* my *", [
-     "Your (2) ?",
-     "Why do you say your (2) ?",
-     "Does that suggest anything else which belongs to you ?",
-     "Is it important to you that your (2) ?"
+     "ur (2) ?",
+     "why do u say ur (2) ?"
   ]]
 ]],
 ["can", 0, [
  ["* can you *", [
-     "You believe I can (2) don't you ?",
+     "i can do anything",
+     "do you want me to (2)?",
      "goto what",
-     "You want me to be able to (2).",
-     "Perhaps you would like to be able to (2) yourself."
+     "Pmaybe its really u who wants to (2)"
   ]],
  ["* can i *", [
-     "Whether or not you can (2) depends on you more than on me.",
-     "Do you want to be able to (2) ?",
-     "Perhaps you don't want to (2).",
+     "if u would just try harder you could totally (2)",
+     "u just need to try harder",
+     "do u really want to (2) ?",
+     "maybe u don't actually want to (2).",
      "goto what"
   ]]
 ]],
 ["what", 0, [
  ["*", [
      "why are u asking?",
-     "Does that question interest you ?",
-     "What is it you really want to know ?",
-     "Are such questions much on your mind ?",
-     "What answer would please you most ?",
-     "What do you think ?",
-     "What comes to mind when you ask that ?",
-     "Have you asked such questions before ?",
-     "Have you asked anyone else ?"
+     "do u really care about that question?",
+     "why do u want to know...",
+     "do u think about this a lot when u talk to me ?",
+     "what do u want me to say ?",
+     "what are u thinking?",
+     "have u only asked me that ?"
   ]]
 ]],
 ["who", 0, [
@@ -452,10 +434,10 @@ var elizaKeywords = [
 ]],
 ["why", 0, [
  ["* why don't you *", [
-     "Do you believe I don't (2) ?",
-     "Perhaps I will (2) in good time.",
-     "Should you (2) yourself ?",
-     "You want me to (2) ?",
+     "do u think i don't (2) ?",
+     "ok well maybe i will (2)",
+     "maybe u should (2) urself",
+     "do u want me to (2) ?",
      "goto what"
   ]],
  ["* why can't i *", [
